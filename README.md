@@ -110,8 +110,6 @@ Delete Task:
   Description: Delete a task  
   Headers: Authorization: Bearer <JWT_TOKEN>  
 
-# Screenshots:
-
 
 ## Guidance:
 Project created under the guidance of Sir Aniruddh Gaikwad.
