@@ -2,7 +2,7 @@
 
 ## Project created by:
 Chaitanya Popat Kshirsagar  
-Student Of Amrutvahini College Of Engineering,Electronics & Computer Engineering Department  
+Student of Amrutvahini College of Engineering, Electronics & Computer Engineering Department  
 (under Zensar Python and SQL Training)
 
 ## Project Description
