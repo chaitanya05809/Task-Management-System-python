@@ -47,33 +47,33 @@ task_management/ |-- app.py|-- models.py|-- config.py|-- requirements.txt
 
 ## User Authentication
 
-Register:
-  Endpoint: /register
-  Method: POST
-  Description: Register a new user
+Register:  
+  Endpoint: /register  
+  Method: POST  
+  Description: Register a new user  
   Request Body: { "username": "your_username", "password": "your_password" }
 
-Login:
-  Endpoint: /login
-  Method: POST
-  Description: Authenticate user and get JWT token
+Login:  
+  Endpoint: /login  
+  Method: POST  
+  Description: Authenticate user and get JWT token  
   Request Body: { "username": "your_username", "password": "your_password" }
 
 ## Task Management
 
-Get All Tasks:
-  Endpoint: /tasks
-  Method: GET
-  Description: Retrieve all tasks for the authenticated user
+Get All Tasks:  
+  Endpoint: /tasks  
+  Method: GET  
+  Description: Retrieve all tasks for the authenticated user  
   Headers: Authorization: Bearer <JWT_TOKEN>
 
 
-Create Task:
-  Endpoint: /tasks
-  Method: POST
-  Description: Create a new task
-  Headers: Content-Type: application/json, Authorization: Bearer <JWT_TOKEN>
-  Request Body:
+Create Task:  
+  Endpoint: /tasks  
+  Method: POST  
+  Description: Create a new task  
+  Headers: Content-Type: application/json, Authorization: Bearer <JWT_TOKEN>  
+  Request Body:  
       {
         "title": "Buy groceries",  
         "description": "Milk, Eggs, Bread",  
@@ -82,12 +82,12 @@ Create Task:
        }
 
 
-Update Task:
-  Endpoint: /tasks/<task_id>
-  Method: PUT
-  Description: Update an existing task
-  Headers: Content-Type: application/json, Authorization: Bearer <JWT_TOKEN>
-  Request Body:
+Update Task:  
+  Endpoint: /tasks/<task_id>  
+  Method: PUT  
+  Description: Update an existing task  
+  Headers: Content-Type: application/json, Authorization: Bearer <JWT_TOKEN>  
+  Request Body:  
         {
           "title": "Buy vegetables",  
           "description": "Tomatoes, Spinach",  
@@ -96,11 +96,11 @@ Update Task:
         }
 
         
-Delete Task:
-  Endpoint: /tasks/<task_id>
-  Method: DELETE
-  Description: Delete a task
-  Headers: Authorization: Bearer <JWT_TOKEN>
+Delete Task:  
+  Endpoint: /tasks/<task_id>  
+  Method: DELETE  
+  Description: Delete a task  
+  Headers: Authorization: Bearer <JWT_TOKEN>  
 
 # Screenshots:
 
