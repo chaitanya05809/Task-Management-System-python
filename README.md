@@ -49,17 +49,17 @@ task_management/ |-- app.py|-- models.py|-- config.py|-- requirements.txt
 
 Register: 
 
-  Endpoint: /register  
-  Method: POST  
-  Description: Register a new user  
-  Request Body: { "username": "your_username", "password": "your_password" }
+1)  Endpoint: /register  
+2)  Method: POST  
+3)  Description: Register a new user  
+4)  Request Body: { "username": "your_username", "password": "your_password" }
 
 Login:  
 
-  Endpoint: /login  
-  Method: POST  
-  Description: Authenticate user and get JWT token  
-  Request Body: { "username": "your_username", "password": "your_password" }
+1)  Endpoint: /login  
+2)  Method: POST  
+3)  Description: Authenticate user and get JWT token  
+4)  Request Body: { "username": "your_username", "password": "your_password" }
 
 ## Task Management
 
@@ -77,9 +77,9 @@ Create Task:
 2)  Method: POST  
 3)  Description: Create a new task  
 4)  Headers: Content-Type: application/json, Authorization: Bearer <JWT_TOKEN>  
-5)  Request Body:  
-  
-      {
+5)  Request Body:
+
+       {
         "title": "Buy groceries",  
         "description": "Milk, Eggs, Bread",  
         "status": "Pending",  
@@ -89,11 +89,11 @@ Create Task:
 
 Update Task:  
 
-  Endpoint: /tasks/<task_id>  
-  Method: PUT  
-  Description: Update an existing task  
-  Headers: Content-Type: application/json, Authorization: Bearer <JWT_TOKEN>  
-  Request Body:  
+1)  Endpoint: /tasks/<task_id>  
+2)  Method: PUT  
+3)  Description: Update an existing task  
+4)  Headers: Content-Type: application/json, Authorization: Bearer <JWT_TOKEN>  
+5)  Request Body:  
   
         {
           "title": "Buy vegetables",  
@@ -105,10 +105,10 @@ Update Task:
         
 Delete Task:  
 
-  Endpoint: /tasks/<task_id>  
-  Method: DELETE  
-  Description: Delete a task  
-  Headers: Authorization: Bearer <JWT_TOKEN>  
+1)  Endpoint: /tasks/<task_id>  
+2)  Method: DELETE  
+3)  Description: Delete a task  
+4)  Headers: Authorization: Bearer <JWT_TOKEN>  
 
 
 ## Guidance:
