@@ -96,12 +96,12 @@ Update Task:
 5)  Request Body:
    
 ```json 
-        {
-          "title": "Buy vegetables",  
-          "description": "Tomatoes, Spinach",  
-          "status": "Completed",  
-          "due_date": "2025-01-09"  
-        }
+{
+  "title": "Buy vegetables",    
+  "description": "Tomatoes, Spinach",  
+  "status": "Completed",  
+  "due_date": "2025-01-09"  
+}
 ````
         
 Delete Task:  
