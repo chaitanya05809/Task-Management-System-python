@@ -93,15 +93,16 @@ Update Task:
 2)  Method: PUT  
 3)  Description: Update an existing task  
 4)  Headers: Content-Type: application/json, Authorization: Bearer <JWT_TOKEN>  
-5)  Request Body:  
-  
+5)  Request Body:
+   
+```json 
         {
           "title": "Buy vegetables",  
           "description": "Tomatoes, Spinach",  
           "status": "Completed",  
           "due_date": "2025-01-09"  
         }
-
+````
         
 Delete Task:  
 
