@@ -79,14 +79,14 @@ Create Task:
 4)  Headers: Content-Type: application/json, Authorization: Bearer <JWT_TOKEN>  
 5)  Request Body:
 
-       {
-        "title": "Buy groceries",  
-        "description": "Milk, Eggs, Bread",  
-        "status": "Pending",  
-        "due_date": "2025-01-10"  
-       }
-
-
+```json
+{
+  "title": "Buy groceries",
+  "description": "Milk, Eggs, Bread",
+  "status": "Pending",
+  "due_date": "2025-01-10"
+}
+````
 Update Task:  
 
 1)  Endpoint: /tasks/<task_id>  
